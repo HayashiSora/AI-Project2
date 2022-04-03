@@ -3,6 +3,9 @@ import numpy as np
 import pandas as pd
 import altair as alt
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=80)
+
 st.set_page_config(layout="wide")
 
 st.title('Vaccine Distribution Modelling')
